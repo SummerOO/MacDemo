@@ -13,6 +13,10 @@
 		3B3005A12010417F001D4716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B30059F2010417F001D4716 /* Main.storyboard */; };
 		3B3005AD2010417F001D4716 /* MacDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3005AC2010417F001D4716 /* MacDemoTests.swift */; };
 		3B3005B820104180001D4716 /* MacDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3005B720104180001D4716 /* MacDemoUITests.swift */; };
+		3BE51E002022B75C0015F0DC /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE51DFF2022B75C0015F0DC /* Preferences.swift */; };
+		3BEBBA0E20219BCF00CFB1F6 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBBA0D20219BCF00CFB1F6 /* ding.mp3 */; };
+		3BEBBA122021B42E00CFB1F6 /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBBA112021B42E00CFB1F6 /* PrefsViewController.swift */; };
+		3BEBBA172021BEF800CFB1F6 /* EggTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBBA162021BEF800CFB1F6 /* EggTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		3B3005B320104180001D4716 /* MacDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3005B720104180001D4716 /* MacDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacDemoUITests.swift; sourceTree = "<group>"; };
 		3B3005B920104180001D4716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE51DFF2022B75C0015F0DC /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		3BEBBA0D20219BCF00CFB1F6 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
+		3BEBBA112021B42E00CFB1F6 /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
+		3BEBBA162021BEF800CFB1F6 /* EggTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +104,10 @@
 		3B3005982010417F001D4716 /* MacDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3BEBBA0D20219BCF00CFB1F6 /* ding.mp3 */,
 				3B3005992010417F001D4716 /* AppDelegate.swift */,
-				3B30059B2010417F001D4716 /* ViewController.swift */,
+				3BEBBA132021BE3F00CFB1F6 /* View Controllers */,
+				3BEBBA142021BE6600CFB1F6 /* Model */,
 				3B30059D2010417F001D4716 /* Assets.xcassets */,
 				3B30059F2010417F001D4716 /* Main.storyboard */,
 				3B3005A22010417F001D4716 /* Info.plist */,
@@ -122,6 +132,24 @@
 				3B3005B920104180001D4716 /* Info.plist */,
 			);
 			path = MacDemoUITests;
+			sourceTree = "<group>";
+		};
+		3BEBBA132021BE3F00CFB1F6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B30059B2010417F001D4716 /* ViewController.swift */,
+				3BEBBA112021B42E00CFB1F6 /* PrefsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3BEBBA142021BE6600CFB1F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BEBBA162021BEF800CFB1F6 /* EggTimer.swift */,
+				3BE51DFF2022B75C0015F0DC /* Preferences.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +261,7 @@
 			files = (
 				3B30059E2010417F001D4716 /* Assets.xcassets in Resources */,
 				3B3005A12010417F001D4716 /* Main.storyboard in Resources */,
+				3BEBBA0E20219BCF00CFB1F6 /* ding.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B30059C2010417F001D4716 /* ViewController.swift in Sources */,
+				3BEBBA172021BEF800CFB1F6 /* EggTimer.swift in Sources */,
+				3BE51E002022B75C0015F0DC /* Preferences.swift in Sources */,
+				3BEBBA122021B42E00CFB1F6 /* PrefsViewController.swift in Sources */,
 				3B30059A2010417F001D4716 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
