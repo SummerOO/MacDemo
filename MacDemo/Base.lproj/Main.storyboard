@@ -248,24 +248,10 @@
                                     <action selector="popupValueChanged:" target="Kxp-wm-o6X" id="Cmf-rL-SZM"/>
                                 </connections>
                             </popUpButton>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6pW-G1-JWH">
-                                <rect key="frame" x="33" y="19" width="82" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="YZJ-GT-pUh">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                    <string key="keyEquivalent" base64-UTF8="YES">
-Gw
-</string>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="cancelButtonClicked:" target="Kxp-wm-o6X" id="IVF-Is-yFa"/>
-                                </connections>
-                            </button>
                             <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EtF-JL-TB4">
-                                <rect key="frame" x="37" y="120" width="405" height="24"/>
+                                <rect key="frame" x="31" y="120" width="411" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <sliderCell key="cell" enabled="NO" state="on" alignment="left" maxValue="25" doubleValue="6.25" tickMarkPosition="above" numberOfTickMarks="25" allowsTickMarkValuesOnly="YES" sliderType="linear" id="mnm-Za-60w"/>
+                                <sliderCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" state="on" alignment="left" minValue="1" maxValue="25" doubleValue="6" tickMarkPosition="above" numberOfTickMarks="25" allowsTickMarkValuesOnly="YES" sliderType="linear" id="mnm-Za-60w"/>
                                 <connections>
                                     <action selector="sliderValueChanged:" target="Kxp-wm-o6X" id="Oef-es-EHb"/>
                                 </connections>
@@ -282,6 +268,20 @@ DQ
                                 </buttonCell>
                                 <connections>
                                     <action selector="okButtonClicked:" target="Kxp-wm-o6X" id="7MM-aJ-mkO"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6pW-G1-JWH">
+                                <rect key="frame" x="27" y="19" width="82" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="YZJ-GT-pUh">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="cancelButtonClicked:" target="Kxp-wm-o6X" id="IVF-Is-yFa"/>
                                 </connections>
                             </button>
                         </subviews>
